@@ -30,5 +30,5 @@ Rodapé com informações básicas sobre o site e contatos.
 ![Wireframe da home](public/wireframe.png)
 
 ## Print da home-page criada
-
+![tela do site](public/print.png)
 <<  COLOQUE A IMAGEM AQUI >>
