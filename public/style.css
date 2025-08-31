@@ -20,3 +20,17 @@ body { font-family: Arial, sans-serif; color: #222; }
 .hero-overlay h1 { font-size: 42px; margin-bottom: 12px; }
 .hero-overlay p { font-size: 18px; margin-bottom: 16px; }
 .btn { background: #2563eb; color: white; padding: 10px 16px; border-radius: 8px; text-decoration: none; }
+
+/* Cards */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.card { border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: #fff; }
+.card-body { padding: 12px; }
+.btn-sm { display: inline-block; padding: 8px 12px; background: #0ea5e9; color: white; border-radius: 8px; text-decoration: none; margin-top: 8px; }
+
+/* Formulário */
+.signup-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; align-items: end; }
+.form-row { display: flex; flex-direction: column; gap: 6px; }
+input { padding: 10px; border: 1px solid #ccc; border-radius: 8px; }
+
+/* Footer */
+.site-footer { background: #333; color: #fff; text-align: center; padding: 16px; margin-top: 40px; }
